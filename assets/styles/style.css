@@ -1,0 +1,102 @@
+/* header start */
+.language{
+    display: flex;
+    padding: 40px 0px;
+}
+
+.language .selected_flag img{
+    width: 23px;
+}
+.language .flag_list{
+    cursor: pointer;
+    position: relative;
+}
+.language .flag_list .flag_list_trigger{
+    padding-left: 10px;
+    
+}
+.language .flag_list .flag_list_trigger i{
+    font-size: 13px;
+    color: var(--brand);
+}
+.language .flag_list .flag_list_images{
+    position: absolute;
+    top: 100%;
+    width: 20px;
+    transition-duration: .3s;
+    visibility: hidden;
+    opacity: 0;
+   
+}
+.language .flag_list:hover .flag_list_images{
+    visibility: visible;
+    opacity: 1;
+}
+.language .flag_list ul li{
+    width: 20px;
+}
+.language .flag_list ul li img{
+    width: 100%;
+}
+.currency select{
+    border: 1px solid var(--white);
+    margin-left: 55px;
+    font-size: 13px;
+    color: #0d354f;
+    font-family: var(--circular);
+    cursor: pointer;
+}
+
+.logo{
+    height: 100px;
+    text-align: center;
+}
+.logo img{
+    height: 100%;
+}
+.header_right_part{
+    border: var(--border);
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 30px 0px;
+}
+.header_right_part .cart{
+    padding-right: 15px;
+    position: relative;
+}
+.header_right_part .cart i{
+    
+}
+.header_right_part .cart span{
+    background-color: var(--brand);
+    color: var(--white);
+    position: absolute;
+    font-family: var(--circular);
+    font-size: 10px;
+    height: 16px;
+    padding: 0px 5px;
+    line-height: 16px;
+    top: -7px;
+    left: 11px;
+    border-radius: 8px;
+    border: 1px solid var(--white);
+    
+}
+.header_right_part .total_amount{
+    color: var(--brand);
+    font-family: var(--circular);
+    background-color: #f3f3f3;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0px 10px;
+}
+/* .header_right_part .login{} */
+.header_right_part .login a{
+    font-size: 13px;
+    font-family: var(--circular);
+    color: var(--brand);
+}
+/* .header_right_part .login a i{} */
+/* .header_right_part .login a span{} */
+/* header end  */

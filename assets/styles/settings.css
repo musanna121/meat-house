@@ -1,0 +1,45 @@
+@font-face {
+    font-family:'Circular Std' ;
+    src: url(../fonts/circular-std-medium-500.ttf);
+}
+@font-face {
+    font-family:'Playfair Display';
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+:root{
+    /* color variable */
+    --brand: #0d354f;
+    --orange: #a3714e;
+    --orange2: #f6a25c;
+    --grey: #727272;
+    --white: #ffffff;
+    /* font variable */
+    --circular: 'Circular Std';
+    --playfair: 'Playfair Display';
+    /* border*/
+    --border: 1px solid red;
+}
+.section_heading_title_default{
+    font-size: 13px;
+    line-height: 110px;
+    color: var(--orange);
+    font-family: "Circular Std";
+    text-transform: uppercase;
+}
+.section_heading_default{
+    width: 433px;
+    height: 107px;
+    font-size: 50px;
+    line-height: 52px;
+    color: var(--brand);
+    font-weight: 900;
+    font-family: var(--playfair);
+}
+p{
+    width: 487px;
+    height: 197px;
+    line-height: 26px;
+    font-size: 14px;
+    color: var(--grey);
+    font-family: var(--circular); 
+}
