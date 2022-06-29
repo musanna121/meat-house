@@ -41,11 +41,15 @@
 
 </head>
 <body>
+    <!-- header part start -->
+    
     <header>
         <div class="contrainer">
             <div class="row">
                 <div class="col_4">
+                    <!-- header left part  -->
                     <div class="language">
+                        <!-- flag -->
                         <div class="selected_flag">
                             <img id="selected_flag_img" src="./assets/images/header/flag.png" alt="">
                         </div>
@@ -53,6 +57,7 @@
                             <div class="flag_list_trigger">
                                 <i class="fas fa-angle-down"></i>
                             </div>
+                            <!-- flag list  -->
                             <ul class="flag_list_images">
                                 <li><img onclick="selected_flag_img.src=event.target.src" src="./assets/images/header/flags/us-w2560/az.png" alt=""></li>
                                 <li><img onclick="selected_flag_img.src=event.target.src" src="./assets/images/header/flags/us-w2560/ct.png" alt=""></li>
@@ -60,6 +65,7 @@
                                 <li><img onclick="selected_flag_img.src=event.target.src" src="./assets/images/header/flags/us-w2560/oh.png" alt=""></li>
                              </ul>
                         </div>
+                        <!-- currency part -->
                         <div class="currency">
                             <select name="" id="">
                                 <option value="">USD</option>
@@ -70,20 +76,25 @@
                 </div>
                 
                 </div>
+                <!-- logo part  -->
                 <div class="col_4">
                     <div class="logo">
                         <img src="./assets/images/header/Logo.png" alt="">
                     </div>
                 </div>
+                <!-- header right part -->
                 <div class="col_4">
                     <div class="header_right_part">
+                        <!-- cart  -->
                         <div class="cart">
                             <i class="fas fa-shopping-cart"></i>
                             <span>56</span>
                         </div>
+                        <!-- amount  -->
                         <div class="total_amount">
                             $100.0
                         </div>
+                        <!-- authentication part  -->
                         <div class="login">
                             <a href="#">
                                 <i class="far fa-user-circle"></i>
@@ -96,9 +107,14 @@
         </div>
         
     </header>
+
+    <!-- header part end  -->
+
+    <!-- nav part start  -->
     <nav>
         <div class="container">
             <div class="row">
+                <!-- navbar links  -->
                 <div class="col_8">
                     <ul>
                         <li><a href="">HOME</a></li>
@@ -109,6 +125,7 @@
                         <li><a href="">CONTACT</a></li>
                     </ul>
                 </div>
+                <!-- search box part -->
                 <div class="col_4">
                     <div class="search_box">
                         <form action="">
@@ -120,5 +137,35 @@
             </div>
         </div>
     </nav>
+
+    <!-- nav part end  -->
+    
+    <!-- banner part start  -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col_6"></div>
+                <div class="col_6">
+                    <div class="banner_content">
+                        <h5>for a limited time sale 15% on all</h5>
+                        <div class="main_text">
+                            <h1>Australian Wagyu</h1>
+                            <span>
+                                direct from farm fresh & taste
+                            </span>
+                        </div>
+                        <p>Find out why Australian Wagyu is our best selling beef. Use code HOLIDAYSALE</p>
+                        <h4>Starting at
+                            <span>
+                                $235.95
+                            </span>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- banner part end  -->
 </body>
 </html>
