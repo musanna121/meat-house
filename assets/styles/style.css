@@ -196,8 +196,14 @@ nav ul li a i{
 }
 .banner_content .main_text .circle_text{
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 18px;
+    top: -45px;
+    font-size: 11px;
+    letter-spacing: 6px;
+    color: var(--brand);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: var(--playfair);
 }
 .banner_content p{
     font-size: 14px;
