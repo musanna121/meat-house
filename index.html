@@ -141,7 +141,7 @@
     <!-- nav part end  -->
     
     <!-- banner part start  -->
-    <section>
+    <section id="banner">
         <div class="container">
             <div class="row">
                 <div class="col_6"></div>
@@ -150,9 +150,26 @@
                         <h5>for a limited time sale 15% on all</h5>
                         <div class="main_text">
                             <h1>Australian Wagyu</h1>
-                            <span>
-                                direct from farm fresh & taste
-                            </span>
+                            <div class="circle_text">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+                                    style="height:100px; width:100px; border: 1px solid;" viewBox="50 30 200 200" xml:space="preserve">
+                                    <defs>
+                                        <path id="circlePath"
+                                        style="stroke: black;stroke-width: 1;fill: none;"
+                                            d=" M 150, 120 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0"/>
+                                    </defs>
+                                    <!-- circle cx="150" cy="200" r="60" fill="black"  -->
+                                    <g>
+                                        <!-- use xlink:href="#circularpath" fill=red -->
+                                        <text fill="#000">
+                                            <textpath xlink:href="#circlePath" style="font-size: 30px">
+                                                direct from farm fresh & taste
+
+                                            </textpath>
+                                        </text>
+                                    </g>
+                                </svg>
+                            </div>
                         </div>
                         <p>Find out why Australian Wagyu is our best selling beef. Use code HOLIDAYSALE</p>
                         <h4>Starting at
@@ -160,6 +177,7 @@
                                 $235.95
                             </span>
                         </h4>
+                        <a href=""></a>
                     </div>
                 </div>
             </div>
@@ -169,3 +187,4 @@
     <!-- banner part end  -->
 </body>
 </html>
+
