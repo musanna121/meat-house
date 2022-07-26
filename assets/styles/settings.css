@@ -48,6 +48,30 @@ p{
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 26px;
-    color: var(--white);
+    color: var(--brand);
     font-family: "Circular Std";
+    font-weight: 600;
+    border: 1px solid var(--brand);
+    padding: 15px 45px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.btn-outline:before{
+    content: ' ';
+    position: absolute;
+    width: 13px;
+    height: 16px;
+    background-color: var(--brand);
+    bottom: -6px;
+    left: -5px;
+    transform: rotate(137deg);
+    
+}
+.btn-solid{
+    background-color: var(--brand);
+    color: var(--white);
+}
+.text-center{
+    text-align: center;
 }
