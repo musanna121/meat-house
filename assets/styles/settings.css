@@ -43,3 +43,11 @@ p{
     color: var(--grey);
     font-family: var(--circular); 
 }
+.btn-outline{
+    background-color: transparent;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: var(--white);
+    font-family: "Circular Std";
+}
